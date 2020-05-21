@@ -1,0 +1,75 @@
+/* Variables */
+:root {
+    --primary-color: #CC550D;
+    --bg-color: #fffbfa;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Balsamiq Sans", sans-serif;
+    width: 100%;
+    height: 100%;
+}
+ .container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.btnn {
+    border: none;
+    padding: 0.8rem 2rem;
+    background: transparent;
+    border-radius: 1.4rem;
+    background: var(--primary-color);
+    color: #fff;
+    font-weight: bold;
+    font-family: "Abel", sans-serif;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    transition: all 400ms ease;
+    border: 1px solid var(--primary-color);
+    margin-top: 2px;;
+}
+
+.btnn:hover {
+    background: transparent;
+    color: var(--primary-color);
+}
+
+
+
+.generic-heading {
+    text-align: center;
+}
+
+.generic-heading h3 {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.review {
+    background-color: #fff;
+}
+.review-content {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: 400px 100px;
+    grid-gap: 2em;
+    margin-left: 11.7%;
+    background-color: var(--bg-color);
+}
+.member {
+    width: 27%;
+    background: var(--bg-color);
+    padding: 45px 20px;
+  }
+  .name {
+      text-align: center;
+  }
+  .info {
+      justify-content: center;
+  }
+  
+  
