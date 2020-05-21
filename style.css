@@ -12,8 +12,11 @@ body {
     width: 100%;
     height: 100%;
 }
+.review {
+    text-align:center;
+}
  .container {
-    width: 85%;
+    width: 95%;
     margin: 0 auto;
 }
 
@@ -30,7 +33,7 @@ body {
     cursor: pointer;
     transition: all 400ms ease;
     border: 1px solid var(--primary-color);
-    margin-top: 2px;;
+    margin-top: 40px;;
 }
 
 .btnn:hover {
@@ -42,6 +45,7 @@ body {
 
 .generic-heading {
     text-align: center;
+    margin-bottom: 10rem;
 }
 
 .generic-heading h3 {
@@ -55,15 +59,21 @@ body {
 .review-content {
     display: grid;
     grid-template-columns: repeat(3, 30%);
-    grid-template-rows: 400px 100px;
-    grid-gap: 2em;
-    margin-left: 11.7%;
-    background-color: var(--bg-color);
+    /* grid-template-rows: 400px 100px; */
+    grid-gap: 5%;
+    /* margin-left: 11.7%; */
+    /* background-color: var(--bg-color); */
 }
 .member {
-    width: 27%;
-    background: var(--bg-color);
-    padding: 45px 20px;
+    /* width: 27%; */
+    /* background: var(--bg-color); */
+    background: pink;
+    padding: 0px 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .member-img {
+    margin-top: -30%;
   }
   .name {
       text-align: center;
