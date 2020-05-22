@@ -66,8 +66,7 @@ body {
 }
 .member {
     /* width: 27%; */
-    /* background: var(--bg-color); */
-    background: pink;
+    background: var(--bg-color); 
     padding: 0px 20px;
     text-align: center;
     border-radius: 5px;
@@ -81,5 +80,116 @@ body {
   .info {
       justify-content: center;
   }
-  
+   .simplify{
+    margin-top: 100px;
+    background-color: var(--primary-color);
+    min-height: 250px;
+   }
+
+   .simple-content {
+    display: grid;
+    /* flex-direction: row;
+    justify-content: space-around; */
+    /* align-content: center; */
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+  .simple{
+     
+      width: 95%;
+      margin: 0 auto;
+  }
+  .text-left {
+      padding:20px;
+      margin-left: 70px;;
+  }
+ /* .text-left p {
+      font-size: 40px;
+      color: #fff;
+      font-weight: 50px;
+      text-align: left;
+  } */
+  .p-text{
+      font-size: 3rem;
+      color: #fff;
+      width: 78%;
+  }
+  .btn {
+    border: none;
+    padding: 0.8rem 2rem;
+    background: transparent;
+    border-radius: 1.4rem;
+    background: var(--bg-color);
+    color: var(--primary-color);
+    font-weight: bold;
+    font-family: "Abel", sans-serif;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    transition: all 400ms ease;
+    border: 1px solid var(--primary-color);
+    margin-top: 40px;;
+
+  }
+  .foot {
+      background-color:#1d1e25;
+  }
+  .social {
+      padding-top: 40px;
+  }
+  .media {
+      padding-top: 80px;
+  }
+  .nav-list {
+      list-style: none;
+  }
+  .nav-link {
+      text-decoration: none;
+      color: #fff;
+      font-size: 0.975rem;
+  }
+  .bto{
+        border: none;
+        padding: 0.8rem 2rem;
+        background: transparent;
+        border-radius: 1.4rem;
+        background: var(--bg-color);
+        color: var(--primary-color);
+        font-weight: bold;
+        font-family: "Abel", sans-serif;
+        letter-spacing: 0.1rem;
+        cursor: pointer;
+        transition: all 400ms ease;
+        border: 1px solid var(--primary-color);
+        margin-top: 40px;;
+    
+      }
+      .btoo{
+            border: none;
+            padding: 0.8rem 2rem;
+            background: transparent;
+            border-radius: 1.4rem;
+            background:  var(--primary-color);
+            color: var(--bg-color);
+            font-weight: bold;
+            font-family: "Abel", sans-serif;
+            letter-spacing: 0.1rem;
+            cursor: pointer;
+            transition: all 400ms ease;
+            border: 1px solid var(--primary-color);
+            margin-top: 40px;
+      }
+      .last {
+          display: grid;
+          grid-template-columns: repeat(4,1fr);
+      }
+      .copy{
+        grid-column: 4;
+        color: #9095a7;
+      }
+     .fa {
+         color: #fff;
+         /* width: 41px; */
+     }
+      
   
